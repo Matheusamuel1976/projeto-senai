@@ -1,0 +1,20 @@
+{
+    "name": "senai/logistica",
+    "description": "Sistema de Gerenciamento Logistico - PHP 8.3, PDO, POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "Controller/",
+            "Model\\": "Model/"
+        },
+        "files": ["Config/configuration.php"]
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-pdo": "*",
+        "ext-mbstring": "*"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
